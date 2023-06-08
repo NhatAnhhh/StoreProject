@@ -56,7 +56,12 @@
                 .menu {
                     display: flex;
                     gap: 39.33px;
+
+                    span:hover {
+                        color: #FF6F61;
+                    }
                 }
+
 
                 .menu>span {
                     font-weight: 600;
