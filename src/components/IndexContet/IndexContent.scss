@@ -1,0 +1,356 @@
+.IndexContent {
+    width: 1320px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 90px;
+
+    .warapper {
+        .content-brand {
+            .logo-fashion:first-child {
+                margin-right: 80px;
+            }
+
+            .logo-fashion {
+                display: flex;
+                gap: 80px;
+            }
+
+            .img-container {
+                padding-top: 90px;
+                display: flex;
+
+                .left {
+                    position: relative;
+                    float: left;
+                    width: 50%;
+
+                    .text-left {
+                        color: black;
+                        text-transform: uppercase;
+                        position: absolute;
+                        bottom: 312px;
+                        font-weight: 400;
+                        font-size: 34px;
+                        left: -312px;
+                        transform: rotate(-90deg);
+                    }
+                }
+
+                .right {
+                    float: right;
+                    width: 50%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 21px;
+                    justify-content: center;
+                }
+
+            }
+        }
+
+        .content-category {
+            .title-container {
+                display: flex;
+                justify-content: space-between;
+
+                .menu {
+                    display: flex;
+                    gap: 39.33px;
+                }
+
+                .menu>span {
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: rgba(0, 0, 0, 0.5);
+                    cursor: pointer;
+                }
+
+                .button-filter:hover {
+                    background-color: #FF6F61;
+                }
+
+                .button-filter {
+                    width: 92px;
+                    height: 32px;
+                    display: flex;
+                    background: #1E2832;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+
+                    .icon {
+                        color: white;
+                    }
+
+                    .text {
+                        color: white;
+                        margin-left: 5px;
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .category-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 24px;
+                padding-top: 40px;
+            }
+        }
+
+    }
+
+    .background {
+        position: relative;
+        padding-top: 140px;
+        left: -23%;
+        width: 1920px;
+        height: 100%;
+
+        .child-image {
+            position: absolute;
+            top: 0%;
+            margin-top: 373px;
+            margin-left: 1083px;
+        }
+
+        .child-image1 {
+            position: absolute;
+            top: 0%;
+            margin-top: 191px;
+            margin-left: 1244px;
+        }
+
+        .child-text {
+            position: absolute;
+            top: 0%;
+            margin-top: 509px;
+            margin-left: 1083px;
+            width: 504px;
+            text-align: start;
+        }
+
+        .child-text>p {
+            font-weight: 400;
+            font-size: 26px;
+            color: #FF6F61;
+        }
+
+        .child-button:hover {
+            background-color: #FF6F61;
+        }
+
+        .child-button {
+            position: absolute;
+            top: 0%;
+            margin-top: 751px;
+            margin-left: 1083px;
+            width: 237px;
+            height: 72px;
+            background: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .bestSeller {
+        padding-top: 140px;
+        padding-bottom: 140px;
+
+        .title-container {
+            display: flex;
+            justify-content: space-between;
+
+            .menu {
+                display: flex;
+                gap: 39.33px;
+            }
+
+            .menu>span {
+                font-weight: 600;
+                font-size: 16px;
+                color: rgba(0, 0, 0, 0.5);
+                cursor: pointer;
+            }
+
+            .button-filter:hover {
+                background-color: #FF6F61;
+            }
+
+            .button-filter {
+                width: 92px;
+                height: 32px;
+                display: flex;
+                background: #1E2832;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+
+                .text {
+                    color: white;
+                    margin-left: 5px;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .category-container {
+            // display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            padding-top: 40px;
+
+            .img-product>h6 {
+                font-weight: 600;
+                font-size: 16px;
+                margin-left: 10px;
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+
+            .img-product {
+                text-align: start;
+
+                .title-product {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+            }
+
+            .slick-prev:before,
+            .slick-next:before {
+                color: gray;
+                font-size: 40px;
+
+            }
+
+            .slick-prev {
+                z-index: 1;
+                left: 10px;
+                top: calc(50% - 40px);
+            }
+
+            .slick-next {
+                z-index: 1;
+                right: 50px;
+                top: calc(50% - 40px);
+            }
+
+            .slick-slide {
+                width: min-content !important;
+                margin-right: 18px;
+            }
+        }
+    }
+
+    .follow-product {
+        padding-top: 100px;
+        height: 653px;
+        background: #F0F0F0;
+        width: 1920px;
+        left: -23%;
+        position: relative;
+
+        .img-product {
+            padding-top: 60px;
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+        }
+
+        .info>h4 {
+            font-weight: 500;
+            font-size: 28px;
+            color: #FF6F61;
+            text-align: center;
+            padding-top: 70px;
+        }
+    }
+
+    // Responsive styles for mobile
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 30px;
+
+        .warapper {
+            .content-brand {
+                .logo-fashion {
+                    gap: 40px;
+                }
+
+                .img-container {
+                    padding-top: 40px;
+
+                    .left,
+                    .right {
+                        float: none;
+                        width: 100%;
+                    }
+
+                    .right {
+                        justify-content: flex-start;
+                    }
+                }
+            }
+
+            .content-category {
+                .title-container {
+                    flex-direction: column;
+
+                    .menu {
+                        gap: 20px;
+                    }
+                }
+            }
+        }
+
+        .background {
+            padding-top: 80px;
+            left: 0;
+            width: 100%;
+
+            .child-image,
+            .child-image1,
+            .child-text,
+            .child-button {
+                position: static;
+                margin: 0;
+            }
+        }
+
+        .bestSeller {
+            padding-top: 80px;
+            padding-bottom: 80px;
+
+            .title-container {
+                flex-direction: column;
+
+                .menu {
+                    gap: 20px;
+                }
+            }
+        }
+
+        .follow-product {
+            padding-top: 60px;
+            height: auto;
+            width: 100%;
+            left: 0;
+
+            .img-product {
+                padding-top: 40px;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+            }
+
+            .info>h4 {
+                padding-top: 50px;
+            }
+        }
+    }
+}

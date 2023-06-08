@@ -1,0 +1,75 @@
+.navbar {
+    width: 1320px;
+    height: 75px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 31px;
+    background-color: #F0F0F0;
+
+    .warapper {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #E3E3E3;
+
+        .center>h2 {
+            font-family: cursive;
+        }
+
+        .left:hover {
+            cursor: pointer;
+            color: #FF6F61;
+        }
+
+        .right {
+            display: flex;
+            gap: 22px;
+
+            .account:hover {
+                color: #FF6F61;
+                cursor: pointer;
+            }
+
+            .shoping:hover {
+                color: #FF6F61;
+                cursor: pointer;
+            }
+        }
+    }
+
+    // Responsive styles for mobile
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+
+        .warapper {
+            padding-left: 0;
+            padding-right: 0;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: none;
+
+            .center>h2 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 18px;
+            }
+
+            .left,
+            .right {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .left:hover,
+            .right .account:hover,
+            .right .shoping:hover {
+                color: #FF6F61;
+                cursor: pointer;
+            }
+        }
+    }
+}

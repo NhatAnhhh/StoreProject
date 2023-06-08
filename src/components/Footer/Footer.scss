@@ -1,0 +1,109 @@
+.footer {
+    width: 1320px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 90px;
+
+    .warapper {
+        display: flex;
+
+        .lisa>p {
+            font-weight: 400;
+            font-size: 16px;
+            color: rgba(30, 40, 50, 0.75);
+        }
+
+        .lisa {
+            width: 392px;
+            height: 207px;
+            text-align: start;
+            padding-right: 56px;
+
+            .icon {
+                display: flex;
+                gap: 38.5px;
+                padding-top: 35px;
+            }
+        }
+
+        .catalog>p {
+            font-weight: 400;
+            font-size: 14px;
+            color: #1E2832;
+        }
+
+        .catalog {
+            text-align: start;
+            width: 200px;
+            height: 212px;
+            padding-right: 136px;
+        }
+
+        .aboutUs {
+            text-align: start;
+            width: 200px;
+            height: 212px;
+            padding-right: 137px;
+        }
+
+        .aboutUs>p {
+            font-weight: 400;
+            font-size: 14px;
+            color: #1E2832;
+        }
+
+        .customer {
+            text-align: start;
+            width: 199px;
+            height: 212px;
+        }
+
+        .customer>p {
+            font-weight: 400;
+            font-size: 14px;
+            color: #1E2832;
+        }
+    }
+
+    .bottom-footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 90px;
+        width: 1920px;
+        position: relative;
+        left: -23%;
+        height: 52px;
+        background: #1E2832;
+        align-items: center;
+    }
+
+    // Responsive styles for mobile
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+
+        .warapper {
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .lisa,
+            .catalog,
+            .aboutUs,
+            .customer {
+                width: 100%;
+                height: auto;
+                padding-right: 0;
+                margin-bottom: 30px;
+            }
+        }
+
+        .bottom-footer {
+            width: 100%;
+            position: static;
+            left: 0;
+            margin-top: 30px;
+        }
+    }
+}
