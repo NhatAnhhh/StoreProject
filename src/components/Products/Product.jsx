@@ -4,7 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import './Product.scss'
 
-const Product = ({ image, name, price, category, isSale, isHot }) => {
+const Product = ({ image, name, price, category, isSale, isHot, salePrice }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const handleMouseEnter = () => {
@@ -40,7 +40,14 @@ const Product = ({ image, name, price, category, isSale, isHot }) => {
             <h6>{name}</h6>
             <div className="product-details">
                 <span className="category">{category}</span>
-                <span className="price">{price}</span>
+                {isSale ? (
+                    <div>
+                        <span className="original-price">{price}</span>
+                        <span className="sale-price">{salePrice}</span>
+                    </div>
+                ) : (
+                    <span className="price">{price}</span>
+                )}
                 {isSale && <span className="sale-tag">Sale</span>}
                 {isHot && <span className="hot-tag">Hot</span>}
             </div>

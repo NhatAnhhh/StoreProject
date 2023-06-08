@@ -8,6 +8,21 @@
         width: 100%;
         height: auto;
         transition: transform 0.3s ease;
+
+        .sale-tag {
+            position: absolute;
+            top: 22px;
+            left: 0;
+            background-color: #1e2832;
+            color: white;
+            font-size: 12px;
+            padding: 4px;
+            width: 52px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
 
     &:hover .bottom {

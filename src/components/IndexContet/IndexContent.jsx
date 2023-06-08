@@ -54,7 +54,8 @@ export const IndexContent = () => {
                             <ProductBrand
                                 img={imgLeft}
                                 name='Dress'
-                                quanlity='100' />
+                                quanlity='100'
+                                isSale={false} />
 
                         </div>
 
@@ -62,19 +63,23 @@ export const IndexContent = () => {
                             <ProductBrand
                                 img={imgRight}
                                 name='Dress'
-                                quanlity='100' />
+                                quanlity='100'
+                                isSale={true} />
                             <ProductBrand
                                 img={imgRight}
                                 name='Dress'
-                                quanlity='100' />
+                                quanlity='100'
+                                isSale={false} />
                             <ProductBrand
                                 img={imgRight}
                                 name='Dress'
-                                quanlity='100' />
+                                quanlity='100'
+                                isSale={false} />
                             <ProductBrand
                                 img={imgRight}
                                 name='Dress'
-                                quanlity='100' />
+                                quanlity='100'
+                                isSale={false} />
                         </div>
                     </div>
                 </div>
@@ -106,7 +111,45 @@ export const IndexContent = () => {
                             name="Adicolor Classics Joggers"
                             price="$63.85"
                             category="Dress"
+                            salePrice="123"
                             isSale={true}
+                            isHot={false}
+
+                        />
+                        <Product
+                            image={product1}
+                            name="Adicolor Classics Joggers"
+                            price="$63.85"
+                            category="Dress"
+                            salePrice="123"
+                            isSale={true}
+                            isHot={false}
+                        />
+                        <Product
+                            image={product1}
+                            name="Adicolor Classics Joggers"
+                            price="$63.85"
+                            category="Dress"
+                            salePrice="123"
+                            isSale={true}
+                            isHot={false}
+                        />
+                        <Product
+                            image={product1}
+                            name="Adicolor Classics Joggers"
+                            price="$63.85"
+                            category="Dress"
+                            salePrice="$69"
+                            isSale={true}
+                            isHot={false}
+
+                        />
+                        <Product
+                            image={product1}
+                            name="Adicolor Classics Joggers"
+                            price="$63.85"
+                            category="Dress"
+                            isSale={false}
                             isHot={true}
                         />
                         <Product
@@ -114,7 +157,7 @@ export const IndexContent = () => {
                             name="Adicolor Classics Joggers"
                             price="$63.85"
                             category="Dress"
-                            isSale={true}
+                            isSale={false}
                             isHot={true}
                         />
                         <Product
@@ -122,7 +165,7 @@ export const IndexContent = () => {
                             name="Adicolor Classics Joggers"
                             price="$63.85"
                             category="Dress"
-                            isSale={true}
+                            isSale={false}
                             isHot={true}
                         />
                         <Product
@@ -130,39 +173,7 @@ export const IndexContent = () => {
                             name="Adicolor Classics Joggers"
                             price="$63.85"
                             category="Dress"
-                            isSale={true}
-                            isHot={true}
-                        />
-                        <Product
-                            image={product1}
-                            name="Adicolor Classics Joggers"
-                            price="$63.85"
-                            category="Dress"
-                            isSale={true}
-                            isHot={true}
-                        />
-                        <Product
-                            image={product1}
-                            name="Adicolor Classics Joggers"
-                            price="$63.85"
-                            category="Dress"
-                            isSale={true}
-                            isHot={true}
-                        />
-                        <Product
-                            image={product1}
-                            name="Adicolor Classics Joggers"
-                            price="$63.85"
-                            category="Dress"
-                            isSale={true}
-                            isHot={true}
-                        />
-                        <Product
-                            image={product1}
-                            name="Adicolor Classics Joggers"
-                            price="$63.85"
-                            category="Dress"
-                            isSale={true}
+                            isSale={false}
                             isHot={true}
                         />
 
@@ -191,7 +202,7 @@ export const IndexContent = () => {
 
             <div className="bestSeller">
                 <div>
-                    <h1 style={{ fontSize: 50, fontWeight: 500, fontFamily: 'cursive' }}>Best sellers</h1>
+                    <h1 style={{ fontSize: 50, fontWeight: 500, fontFamily: "'Times New Roman', Times, serif" }}>Best sellers</h1>
                 </div>
 
                 <div className="title-container">
@@ -216,7 +227,18 @@ export const IndexContent = () => {
                             name="Adicolor Classics Joggers"
                             price="$63.85"
                             category="Dress"
+                            salePrice="$69"
                             isSale={true}
+                            isHot={false}
+
+                        />
+
+                        <Product
+                            image={product1}
+                            name="Adicolor Classics Joggers"
+                            price="$63.85"
+                            category="Dress"
+                            isSale={false}
                             isHot={true}
                         />
 
@@ -225,7 +247,18 @@ export const IndexContent = () => {
                             name="Adicolor Classics Joggers"
                             price="$63.85"
                             category="Dress"
+                            salePrice="$69"
                             isSale={true}
+                            isHot={false}
+
+                        />
+
+                        <Product
+                            image={product1}
+                            name="Adicolor Classics Joggers"
+                            price="$63.85"
+                            category="Dress"
+                            isSale={false}
                             isHot={true}
                         />
 
@@ -234,7 +267,18 @@ export const IndexContent = () => {
                             name="Adicolor Classics Joggers"
                             price="$63.85"
                             category="Dress"
+                            salePrice="$69"
                             isSale={true}
+                            isHot={false}
+
+                        />
+
+                        <Product
+                            image={product1}
+                            name="Adicolor Classics Joggers"
+                            price="$63.85"
+                            category="Dress"
+                            isSale={false}
                             isHot={true}
                         />
 
@@ -243,7 +287,7 @@ export const IndexContent = () => {
                             name="Adicolor Classics Joggers"
                             price="$63.85"
                             category="Dress"
-                            isSale={true}
+                            isSale={false}
                             isHot={true}
                         />
 
@@ -252,35 +296,9 @@ export const IndexContent = () => {
                             name="Adicolor Classics Joggers"
                             price="$63.85"
                             category="Dress"
+                            salePrice="$69"
                             isSale={true}
-                            isHot={true}
-                        />
-
-                        <Product
-                            image={product1}
-                            name="Adicolor Classics Joggers"
-                            price="$63.85"
-                            category="Dress"
-                            isSale={true}
-                            isHot={true}
-                        />
-
-                        <Product
-                            image={product1}
-                            name="Adicolor Classics Joggers"
-                            price="$63.85"
-                            category="Dress"
-                            isSale={true}
-                            isHot={true}
-                        />
-
-                        <Product
-                            image={product1}
-                            name="Adicolor Classics Joggers"
-                            price="$63.85"
-                            category="Dress"
-                            isSale={true}
-                            isHot={true}
+                            isHot={false}
                         />
                     </Slider>
                     {/* <Slider {...settings}>
@@ -297,7 +315,7 @@ export const IndexContent = () => {
 
             <div className="follow-product">
                 <div>
-                    <h1 style={{ fontSize: 50, fontWeight: 500, fontFamily: 'cursive' }}>Follow products and discounts on Instagram</h1>
+                    <h1 style={{ fontSize: 50, fontWeight: 500, fontFamily: "'Times New Roman', Times, serif" }}>Follow products and discounts on Instagram</h1>
                 </div>
 
                 <div className="img-product">

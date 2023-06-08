@@ -2,6 +2,8 @@ import React from "react";
 import "./ContentTop.scss"
 import ShoppingBagSharpIcon from '@mui/icons-material/ShoppingBagSharp';
 import imgTop from "assets/imgTop.svg"
+import imgLeft from 'assets/Frame.svg'
+import imgRight from 'assets/Vector.svg'
 
 export const ContentTop = () => {
     return <>
@@ -9,10 +11,10 @@ export const ContentTop = () => {
             <div className="warapper">
                 <div className="left">
                     <div>
-                        <h2 style={{ fontWeight: 300, fontSize: 74, fontFamily: "cursive" }}>Collections</h2>
+                        <h2 style={{ fontWeight: 300, fontSize: 74, fontFamily: "'Times New Roman', Times, serif" }}>Collections</h2>
                     </div>
                     <div style={{ width: 700, marginTop: 52 }}>
-                        <p style={{ fontWeight: 400, fontSize: 30, fontFamily: "cursive" }}>You can explore ans shop many differnt collection
+                        <p style={{ fontWeight: 400, fontSize: 30, fontFamily: "'Times New Roman', Times, serif" }}>You can explore ans shop many differnt collection
                             from various barands here.</p>
                     </div>
                     <div style={{ marginTop: 66 }} >
@@ -28,7 +30,12 @@ export const ContentTop = () => {
                     </div>
                 </div>
             </div>
-
+            <div className="imgLeft">
+                <img src={imgLeft} alt="" />
+            </div>
+            <div className="imgRight">
+                <img src={imgRight} alt="" />
+            </div>
         </div>
     </>
 }

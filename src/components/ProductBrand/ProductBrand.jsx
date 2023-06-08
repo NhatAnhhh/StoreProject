@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ProductBrand.scss'
 
-export const ProductBrand = ({ img, name, quanlity }) => {
+export const ProductBrand = ({ img, name, quanlity, isSale }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const handleMouseEnter = () => {
@@ -21,6 +21,7 @@ export const ProductBrand = ({ img, name, quanlity }) => {
             <div className="img-product">
                 <img src={img} alt={name}>
                 </img>
+                {isSale && <span className="sale-tag">Sale</span>}
 
                 <div className="bottom">
                     <div className="name">
@@ -28,6 +29,7 @@ export const ProductBrand = ({ img, name, quanlity }) => {
                     </div>
                     <div className="quanlity">
                         <span style={{ fontWeight: 400, fontSize: 18 }}>{quanlity}</span>
+
                     </div>
                 </div>
             </div>
